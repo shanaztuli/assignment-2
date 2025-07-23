@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(245, 248, 255);
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.display {
+  display: flex;
+  align-items: center;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.noto {
+  font-family: "Noto Serif", serif;
+}
+.orange {
+  color: #e95a08;
+}
+.color-1 {
+  color: #000000;
+}
+.color-2 {
+  color: #00000080;
+}
+.color-3 {
+  color: #111111;
+}
+.color-4 {
+  color: #ffffff;
+}
+/* nav section */
+nav {
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 109px;
+}
+.nav-option {
+  gap: 45px;
+}
+.nav-option li {
+  list-style: none;
+  color: black;
+}
+.nav-option li a {
+  text-decoration: none;
+  color: black;
+}
+/* hero section */
+.hero {
+  align-items: last baseline;
+}
+.hero-title {
+  margin-bottom: 13px;
+  font-family: Noto Serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.hero p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+}
+/* our plants section */
+.our-plants {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.our-plants h2 {
+  font-family: Noto Serif;
+  margin-bottom: 16px;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.our-plants p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
