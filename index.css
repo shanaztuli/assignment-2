@@ -125,14 +125,36 @@ nav {
   display: flex;
   display: grid;
   grid-template-columns: repeat(4, 4fr);
+  column-gap: 20px;
 }
 /* brand */
-.brand img {
+/* .image img {
+  width: 286px;
+  height: 286px; */
+
+/* padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500; */
+/* position: relative;
+  margin-right: -300px;
+  margin-top: 100px;
+} */
+.lover-left {
+  position: relative;
+  margin-top: 100px;
+}
+.brand {
+  position: absolute;
+  top: -160px;
+  left: 100px;
+  right: 100px;
+  width: 80px;
   width: 286px;
   height: 286px;
 }
-.brand {
-  text-align: center;
+
+.image {
+  /* position: relative; */
 }
 /* lover section */
 .lover {
@@ -269,16 +291,19 @@ footer {
   align-items: center;
   justify-content: space-around;
   padding: 50px 0;
+  color: rgba(0, 0, 0, 0.5);
 }
 .foot-2 {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .foot-3 {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  color: rgba(0, 0, 0, 0.5);
 }
 .foot-4 {
   display: flex;
@@ -360,12 +385,13 @@ footer {
     /* width: 100%; */
     width: auto;
     height: auto;
+    column-gap: 10px;
   }
   .btn {
     max-width: 171px;
     height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .cards img {
     width: 100%;
@@ -382,8 +408,7 @@ footer {
     flex-direction: column;
   }
   .lover-left {
-    /* padding-left: 10px;
-    padding-right: 10px; */
+    margin-top: 10px;
   }
   /*  */
 
